@@ -23,14 +23,12 @@ my $microseconds;
 
 ($seconds, $microseconds) = gettimeofday;
 
-
-
 ### End beginning of execution time.... See Below for final interval code
 
 
 
 
-u
+
 print "Content-Type: text/html\n\n";
 
 
