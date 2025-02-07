@@ -18,20 +18,19 @@ use Time::HiRes qw( gettimeofday tv_interval nanosleep );
 
 my $t0 = [gettimeofday];
 
-my $seconds;
+my $seconds;u
 my $microseconds;
 
 ($seconds, $microseconds) = gettimeofday;
 
-### handle small numbers --- Testing next line ###
-### $microseconds = $seconds * 1000 + $microseconds / 1000;
+
 
 ### End beginning of execution time.... See Below for final interval code
 
 
 
 
-
+u
 print "Content-Type: text/html\n\n";
 
 
