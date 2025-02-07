@@ -11,4 +11,4 @@ The script uses two different perl version methods.
 The script also prints execution time and when the file was last updated 
 
 Demo below...
-[ https://joelrader.net/cgi-bin/github/perl-cgi-test.pl }
+[ https://joelrader.net/cgi-bin/github/perl-cgi-test.pl ]
