@@ -58,7 +58,7 @@ print "\n <br>";
 
 ### File last modified ###
 
-my $file = "a.pl";
+my $file = "perl-cgi-test.pl";
 
 my $last_mod_time = (stat ($file))[9];
 my $timetoreadable = localtime($last_mod_time);
