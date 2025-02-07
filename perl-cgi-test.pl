@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+##   Use the previous shbang line to use system perl
+
 ##   Use the following shbang if you have perlbrew on your suystem.. Change user below to your local username and your version of perl to use perlbrew in your cgi-script ... For use on linux.. Ubuntu Linux used by me
 ##   #!/home/user/perl5/perlbrew/perls/perl-5.40.1/bin/perl
 
