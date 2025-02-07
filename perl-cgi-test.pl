@@ -18,7 +18,7 @@ use Time::HiRes qw( gettimeofday tv_interval nanosleep );
 
 my $t0 = [gettimeofday];
 
-my $seconds;u
+my $seconds;
 my $microseconds;
 
 ($seconds, $microseconds) = gettimeofday;
