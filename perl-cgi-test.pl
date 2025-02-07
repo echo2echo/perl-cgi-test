@@ -23,8 +23,8 @@ my $microseconds;
 
 ($seconds, $microseconds) = gettimeofday;
 
-### handle small numbers ###
-$microseconds = $seconds * 1000 + $microseconds / 1000;
+### handle small numbers --- Testing next line ###
+### $microseconds = $seconds * 1000 + $microseconds / 1000;
 
 ### End beginning of execution time.... See Below for final interval code
 
