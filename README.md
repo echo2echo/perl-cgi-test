@@ -1,4 +1,4 @@
-README for uperl-cgi-test.pl
+README for perl-cgi-test.pl
 
 This perl script helps in testing a cgi-bin installation and has instructions to use system perl as well as perlbrew perls.  The script lists the perl version being used, the execution time and the file last modified date 
 
