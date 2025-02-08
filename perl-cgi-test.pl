@@ -23,7 +23,7 @@ my $microseconds;
 
 ($seconds, $microseconds) = gettimeofday;
 
-### End beginning of execution time.... See Below for final interval code
+### End part 1 of execution time.... See Below for final interval code
 
 
 
@@ -73,7 +73,7 @@ print "File last updated: $timetoreadable EST <br><br>\n";
 
 
 
-### End Section for Elapsed Execution time... As opposed to page load time
+### Part 2 Execution Time... End Section for Elapsed Execution time...
 
 ##  Add sleep to show microseconds without exponential notation
 nanosleep(100000);
