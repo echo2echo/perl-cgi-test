@@ -40,7 +40,7 @@ print "Content-Type: text/html\n\n";
 
 my $version = "$^V";
 
-print "perl version summary...<br><br>";
+print "perl version summary...<br>";
 
 print "Version; $version\n <br>";
 
