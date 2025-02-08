@@ -76,7 +76,7 @@ print "File last updated: $timetoreadable EST <br><br>\n";
 ### End Section for Elapsed Execution time... As opposed to page load time
 
 ##  Add sleep to show microseconds without exponential notation
-nanosleep(1000000);
+nanosleep(100000);
 
 my $elapsed = tv_interval ( $t0 );
 
