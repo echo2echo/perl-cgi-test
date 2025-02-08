@@ -62,6 +62,7 @@ my $file = "perl-cgi-test.pl";
 my $last_mod_time = (stat ($file))[9];
 my $timetoreadable = localtime($last_mod_time);
 
+# local time here is EST
 print "File last updated: $timetoreadable EST <br><br>\n";
 
 ### End file last modified ##
