@@ -13,7 +13,7 @@ use diagnostics;
 
 
 ### Start Elapsed Execution Time
-### try $ cpanm Time::HiRes (if needed)
+### $ cpanm Time::HiRes (to install perl module if needed)
 use Time::HiRes qw( gettimeofday tv_interval nanosleep );
 
 my $t0 = [gettimeofday];
