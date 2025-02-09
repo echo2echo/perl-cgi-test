@@ -50,7 +50,7 @@ print "Alt Version: $]\n <br>\n";
 
 ### File last modified ###
 
-my $file = "perl-cgi-test.pl";
+my $file = $0;
 
 my $last_mod_time = (stat ($file))[9];
 my $timetoreadable = localtime($last_mod_time);
