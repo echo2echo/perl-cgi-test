@@ -50,6 +50,7 @@ print "Alt Version: $]\n <br>\n";
 
 ### File last modified ###
 
+# Get file name
 my $file = $0;
 
 my $last_mod_time = (stat ($file))[9];
