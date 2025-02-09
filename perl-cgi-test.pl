@@ -39,9 +39,7 @@ print "perl version summary...<br>";
 
 print "Version; $version\n <br>";
 
-print "Alt Version: $]\n <br><br>";
-
-print "\n <br>";
+print "Alt Version: $]\n <br>\n";
 
 ### perl Version End ###
 
