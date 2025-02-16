@@ -35,7 +35,7 @@ my $filename  = $0;
 
 $filename =~ s/\/usr\/lib\/cgi-bin\///;
 
-print "Filename: $filename\n<br>";
+print "Filename: $filename\n<br><br>";
 
 ### filename end  ###
 
