@@ -34,6 +34,7 @@ print "Content-Type: text/html\n\n";
 my $filename  = $0;
 
 $filename =~ s/\/usr\/lib\/cgi-bin\///;
+$filename =~ s/.*\///;
 
 print "Filename: $filename\n<br><br>";
 
