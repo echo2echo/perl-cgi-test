@@ -29,6 +29,19 @@ print "Content-Type: text/html\n\n";
 
 
 
+### Get filename minus path ###
+
+my $filename  = $0;
+
+$filename =~ s/\/usr\/lib\/cgi-bin\///;
+
+print "Filename: $filename\n<br>";
+
+### filename end  ###
+
+
+
+
 
 
 ### perl Version Begin ###
