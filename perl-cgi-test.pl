@@ -18,7 +18,7 @@ use diagnostics;
 use Time::HiRes qw( gettimeofday tv_interval nanosleep );
 my $t0 = [gettimeofday];
 
-### End part 1 of execution time.... See Below for final interval code
+### End part 1 of execution time.... See bottom of this script for final interval code
 
 
 
