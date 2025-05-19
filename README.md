@@ -15,5 +15,5 @@ The script also prints filename, execution time and when the file was last updat
 
 Add html to taste & use code blocks if useful in your own scripts.
 
-Demo here...
+Demo rendering here...
 [ https://joelrader.net/cgi-bin/github/perl-cgi-test.pl ]
