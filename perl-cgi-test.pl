@@ -23,8 +23,18 @@ my $t0 = [gettimeofday];
 
 
 
-
 print "Content-Type: text/html\n\n";
+
+
+
+
+### Begin OS Info
+
+my $OS = `uname -a`;
+$OS =~  s/DYNAMIC/DYNAMIC<br>/;  
+print "$OS<br><br>"; 
+
+### End OS info
 
 
 
