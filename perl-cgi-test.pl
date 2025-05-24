@@ -66,7 +66,7 @@ print "perl version summary...<br>";
 
 print "Version; $version\n <br>";
 
-print "Alt Version: $]\n <br>\n";
+print "Alt Version: $]\n <br><br>\n";
 
 ### perl Version End ###
 
