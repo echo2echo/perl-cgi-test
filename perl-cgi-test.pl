@@ -32,7 +32,7 @@ print "Content-Type: text/html\n\n";
 
 my $OS = `uname -a`;
 $OS =~ s/debian/Debian Kernel/;
-$OS =~  s/DYNAMIC/DYNAMIC<br>/;  
+$OS =~ s/DYNAMIC/DYNAMIC<br>/;  
 print "$OS<br><br>"; 
 
 ### End OS info
