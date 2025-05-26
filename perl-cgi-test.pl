@@ -28,7 +28,7 @@ print "Content-Type: text/html\n\n";
 
 
 
-### Begin OS Info
+### Begin OS / Kernel Info
 
 my $OS = `uname -a`;
 $OS =~ s/debian/Debian Kernel/;
