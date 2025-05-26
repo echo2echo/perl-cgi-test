@@ -13,7 +13,7 @@ The script uses two different perl version methods.
 
 The script also prints apache web server version, filename, execution time and when the file was last updated 
 
-Add html to taste & use code blocks if useful in your own scripts.
+Use code blocks if useful in your own scripts.
 
 Demo of script rendering here...
 [ https://joelrader.net/cgi-bin/github/perl-cgi-test.pl ]
