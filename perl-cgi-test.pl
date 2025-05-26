@@ -40,6 +40,19 @@ print "$OS<br><br>";
 
 
 
+### Begin Apache Version
+
+my $get = `apt-cache policy apache2`;
+
+$get =~ m/Installed: (.*)\s+Candidate/;
+
+$get = $1;
+
+print $get;
+
+### End Apache Version
+
+
 ### Get filename minus path ###
 
 my $filename  = $0;
