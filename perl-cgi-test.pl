@@ -41,6 +41,7 @@ print "$OS<br><br>";
 
 
 ### Begin Apache information
+# Works with Ubuntu and Debian Linux... Otherwise untested
 
 my $get = `apt-cache policy apache2`;
 
