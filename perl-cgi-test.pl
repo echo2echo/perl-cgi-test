@@ -118,7 +118,9 @@ nanosleep(1000);
 
 my $elapsed = tv_interval ( $t0 );
 
-print "Execution time: $elapsed seconds <br>\n";
+my $round = sprintf("%.3f", $elapsed);
+
+print "Execution time: $round seconds <br>\n";
 
 ### Execution time end ###
 
