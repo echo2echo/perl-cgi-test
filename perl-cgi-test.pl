@@ -1,15 +1,8 @@
 #!/usr/bin/env perl
 
-##   Use the previous shbang line to use system perl
-
-##   Use the following shbang if you have perlbrew on your system.  Change username below to your local username and your version of perl to use perlbrew in your cgi-script ... For use on Linux & the BSDs... Ubuntu Linux was used to create and run this script
-##   #!/home/username/perl5/perlbrew/perls/perl-5.40.1/bin/perl
-
 use strict;
 use warnings;
 use diagnostics;
-
-
 
 
 ### Start Elapsed Execution Time
@@ -24,8 +17,6 @@ my $t0 = [gettimeofday];
 
 
 print "Content-Type: text/html\n\n";
-
-
 
 
 
