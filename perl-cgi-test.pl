@@ -54,8 +54,7 @@ my $filename  = $0;
 
 # Remove Path
 $filename =~ s/\/usr\/lib\/cgi-bin\///;
-$filename =~ s/.*\///;
-$filename =~ s/.*\///;
+$filename =~ s/.*\///g;
 
 print "Filename: $filename\n<br><br>";
 
