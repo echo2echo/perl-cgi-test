@@ -1,6 +1,6 @@
 README for perl-cgi-test.pl
 
-This perl script helps in testing a cgi-bin installation and has instructions to use system perl.  For perlbrew perls try a shbang something like:
+This perl script helps in testing a cgi-bin installation and has instructions to use system perl.  With perlbrew perls try a shbang something like:
 #!/home/username/perl5/perlbrew/perls/perl-5.44.0/bin/perl
 
 This file, perl-cgi-test.pl, was created and runs on Ubuntu Linux. It should be mostly portable using different recent versions of Linux and perl. The BSDs too.
