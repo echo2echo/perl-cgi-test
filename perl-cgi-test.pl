@@ -43,7 +43,7 @@ $get = $1;
 
 print "Apache Version: $get<br><br>";
 
-## End Apache info
+### End Apache info
 
 
 
